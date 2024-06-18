@@ -30,7 +30,7 @@
   margin: auto;
   display: block;
   max-height: 90%;
-  max-width: 800px;
+  max-width: 90%;
   object-fit: cover;
 }
 
@@ -121,7 +121,8 @@ body {
 .rightcolumn img {
   padding: 30px 0;
   vertical-align: middle;
-  width: 80%;
+  max-width: 80%;
+  max-height: 700px;
   margin: 0 10%; /* moves both img left or right*/
   
 }
