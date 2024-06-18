@@ -1,0 +1,117 @@
+/* YONINA ROLLACK HEADER  */ 
+.center-header-YR {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+     max-width: 550px;
+   
+   }
+   
+
+/* FRONT PAGE   */ 
+.gifheader {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+      	
+.bio {
+    font-family: Helvetica; 
+    text-align:center; 
+    font-size:16px;
+    }
+
+
+
+    
+a { text-decoration: none; }
+    
+/**Navgation bar **/
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow:hidden;
+    }
+    li a{
+        margin:0 auto;
+        display:block;
+        width: 220px;
+    	font:normal 16px Arial, sans-serif;
+        color:black	;
+        text-align:center;
+        padding:4px;
+        text-decoration:none;
+        text-transform:uppercase;
+		font-weight: bold;
+    }
+	
+	li a.active {
+  background-color: white;
+  color: #878787;
+  font-weight: bold;
+  font:30px;
+}
+	
+    li a:hover:not(.active){
+       		font-weight: bold;
+			color: #878787;
+    }
+    li {
+        display:inline-block;
+    }
+    #menu {
+        background-color:white;
+    text-align:center;
+    }
+	
+	/* copyright footer  */ 
+			.copyright {
+font-family: Arial; 
+text-align:center;
+font-size:14px; 
+}
+
+
+
+/**Contact form **/
+
+.form-div{
+    max-width: 350px; 
+    margin: 0 auto;
+}
+
+.form-group {
+    margin: 10px auto; /* Center the form horizontally */
+    text-align: left; /* Left align the content within the form */
+}
+
+.form-label {
+    font: normal 16px Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px; /* Add margin bottom to create space between label and input */
+}
+
+/* Set the width of input fields and textarea to 100% */
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 10px); /* Adjust width to accommodate padding and margins */
+    margin-top: 5px; /* Add margin top to create space between input and label */
+    padding: 8px; /* Adjust padding for input fields and text area */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.button {
+    background-color: #e86b65; 
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Change display to block */
+    width: 100%; /* Set button width to 100% */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}

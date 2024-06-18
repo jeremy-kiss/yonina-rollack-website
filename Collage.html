@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- header CSS stylesheet reference -->
+<link rel="stylesheet" type= "text/css" href="css/style.css" />
+`
+<!-- modal grid CSS stylesheet reference -->
+<link rel="stylesheet" type= "text/css" href="css/modal_image_grid_style.css" />
+</head>
+
+<body>
+<a href = "index.html" > <img class = "center-header-YR" src=  "portfolio/reducedSize_gz/Logo_GIF.gif"    > </a>
+
+<div id="menu">
+  <header>
+      <ul>
+        <li><a  href="Commissions.html">COMMISSIONS</a></li>
+        <li><a href="Printmaking.html">PRINTMAKING</a></li>
+        <li><a  href="Illustration.html">ILLUSTRATION</a></li>
+        <li><a  class = "active" href="Collage.html">COLLAGE</a></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+      </ul>
+  </header>
+</div>
+
+
+<div class="row"> 
+
+<!-- Group Break -->
+<div class="leftcolumn">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/IMG_0103.jpeg"  alt="<i>Untitled</i> </br>digital collage, 2020">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/unnamed-3.jpg"  alt="<i>Untitled</i> </br>digital collage, 2020">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/unnamed-2.jpg"  alt="<i>Untitled</i> </br>digital collage, 2020">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/snake.png"  alt="<i>Untitled</i> </br> digital collage, 2017">
+</div>
+  
+<div class="rightcolumn">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/unnamed-1.jpg"  alt="<i>Untitled</i> </br>digital collage, 2020">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/unnamed-4.jpg"  alt="<i>Untitled</i> </br>digital collage, 2020">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/doop.jpg"  alt="<i>Untitled</i> </br> digital collage, 2017">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/luna.jpg"  alt="<i>Untitled</i> </br> digital collage, 2017">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/spaceman.png"  alt="<i>Untitled</i> </br> digital collage, 2017">
+</div>  
+
+
+<!-- Group Break -->
+<div class="leftcolumn">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/india.jpg"  alt="<i>Untitled</i> </br> handmade collage, 2016">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/alien.jpg"  alt="<i>Untitled</i> </br> handmade collage, 2016">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/fish2.jpg"  alt="<i>Untitled</i> </br> handmade collage, 2016">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/abduction.jpg"  alt="<i>Untitled</i> </br>handmade collage, 2016">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/drawnhead.jpg"  alt="<i>Untitled</i> </br> handmade collage, 2016">
+</div>
+
+<div class="rightcolumn">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/bird.jpg"  alt="<i>Untitled</i> </br> handmade collage, 2016">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/skeletonhand.jpg"  alt="<i>Untitled</i> </br> handmade collage, 2016">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/birdsnbugs.jpg"  alt="<i>Untitled</i> <br/> handmade collage, 2016">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/fish1.jpg"  alt="<i>Untitled</i> </br> handmade collage, 2016">
+  <img class="myImg" src= "portfolio/reducedSize_gz/Collage/mushrooms.jpg"  alt="<i>Untitled</i> </br> handmade collage, 2016">      
+</div>  
+
+
+
+
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+<script type="text/javascript" src="js/modal.js"></script>
+
+</br>
+</br>
+
+<div id="footer-placeholder"></div>
+<script>
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+        });
+</script>
+</body>r

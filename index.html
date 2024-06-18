@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- header CSS stylesheet reference -->
+<link rel="stylesheet" type= "text/css" href="css/style.css" />
+
+<!-- modal grid CSS stylesheet reference -->
+<link rel="stylesheet" type= "text/css" href="css/modal_image_grid_style.css" />
+</head>
+
+<body>
+
+<a href = "index.html" > <img class = "gifheader"  src=  "portfolio/reducedSize_gz/Dog_flower.gif"    > </a>
+
+<div id="menu">
+    <header>
+        <ul>
+          <li><a  href="Commissions.html">COMMISSIONS</a></li>
+          <li><a  href="Printmaking.html">PRINTMAKING</a></li>
+          <li><a href="Illustration.html">ILLUSTRATION</a></li>
+          <li><a  href="Collage.html">COLLAGE</a></li>
+          <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+    </header>
+
+</br>
+
+  <div id="footer-placeholder"></div>
+  <script>
+      fetch('footer.html')
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById('footer-placeholder').innerHTML = data;
+          });
+  </script>
+</body>

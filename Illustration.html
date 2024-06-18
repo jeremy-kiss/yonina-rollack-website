@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- header CSS stylesheet reference -->
+<link rel="stylesheet" type= "text/css" href="css/style.css" />
+
+<!-- modal grid CSS stylesheet reference -->
+<link rel="stylesheet" type= "text/css" href="css/modal_image_grid_style.css" />
+
+</head>
+
+<body>
+<a href = "index.html" > <img class = "center-header-YR" src=  "portfolio/reducedSize_gz/Logo_GIF.gif"    > </a>
+
+<div id="menu">
+  <header>
+      <ul>
+        <li><a  href="Commissions.html">COMMISSIONS</a></li>
+        <li><a href="Printmaking.html">PRINTMAKING</a></li>
+        <li><a  class = "active" href="Illustration.html">ILLUSTRATION</a></li>
+        <li><a  href="Collage.html">COLLAGE</a></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+      </ul>
+  </header>
+</div>
+
+<div class="row"> 
+
+<!-- Group Break -->
+	<div class="leftcolumn">
+    <img class="myImg" src= "portfolio/reducedSize_gz/added_work_2021-10-11/Ghost_Town.jpg"  alt="<i>Ghost Town</i> </br> digital illustration, 2021">
+    <img class="myImg" src= "portfolio/reducedSize_gz/added_work_2021-10-11/Garden_Pals.jpg"  alt="<i>Garden Pals</i> </br> digital illustration, 2021">
+	  <img class="myImg" src= "portfolio/reducedSize_gz/added_work_2021-10-11/Monkey_Manicure.jpg"  alt="<i>Monkey Manicure</i> </br> digital illustration, 2021">
+		<img class="myImg" src= "portfolio/reducedSize_gz/Digital_Illustration/IsolationTipsandTricks.jpg"  alt="<i>Isolation Tips and Tricks</i> </br> digital comic, 2020">
+    <img class="myImg" src= "portfolio/reducedSize_gz/Digital_Illustration/Frogs.jpg"  alt="digital illustration, Scummy Magic, 2019">
+		<img class="myImg" src= "portfolio/reducedSize_gz/2018/Protector.jpg"  alt="<i>Protector</i> </br> Mural, 2018 ">
+  </div>
+  
+  <div class="rightcolumn">
+    <img class="myImg" src= "portfolio/reducedSize_gz/added_work_2021-10-11/Pool_Party.jpg"  alt="<i>Pool Party</i> </br> digital illustration, 2021">
+    <img class="myImg" src= "portfolio/reducedSize_gz/added_work_2021-10-11/Vday_.jpg"  alt="<i>Love Birds</i> </br> digital illustration, 2021">
+    <img class="myImg" src= "portfolio/reducedSize_gz/added_work_2021-10-11/Flower_Delivery_white.jpg"  alt="<i>Flower Delivery</i> </br> digital illustration, 2021">
+    <img class="myImg" src= "portfolio/reducedSize_gz/added_work_2021-10-11/FastFoodFantasy.jpg"  alt="<i>Fast Food Fantasy</i> </br> digital illustration, 2021">
+    <img class="myImg" src= "portfolio/reducedSize_gz/Digital_Illustration/Dogs.jpg"  alt="<i>Dogs</i> <br/> digital illustration, 2020">
+    <img class="myImg" src= "portfolio/reducedSize_gz/Digital_Illustration/Boon_single.jpg"  alt="<i>Boon</i> </br> digital illustration, 2020">
+  </div>  
+
+
+<!-- Group Break -->
+	<div class="leftcolumn">
+  </div>
+  
+  <div class="rightcolumn">
+  </div>  
+
+<!-- Group Break -->
+	<div class="leftcolumn">
+		<img class="myImg" src= "portfolio/reducedSize_gz/Digital_Illustration/MoonGuy.jpg"  alt="<i>Moon Guy</i> </br> digital illustration, 2019">
+  </div>
+  
+  <div class="rightcolumn">
+	    <img class="myImg" src= "portfolio/reducedSize_gz/Digital_Illustration/Sun.jpg"  alt="<i>Sun Guy</i> </br> digital illustration, 2019">
+  </div>  
+
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+
+<script type="text/javascript" src="js/modal.js"></script>
+
+
+</br>
+</br>
+
+<div id="footer-placeholder"></div>
+<script>
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+        });
+</script>
+</body>
