@@ -121,7 +121,7 @@ body {
 .rightcolumn img {
   padding: 30px 0;
   vertical-align: middle;
-  max-width: 80%;
+  max-width: 60%;
   max-height: 700px;
   margin: 0 10%; /* moves both img left or right*/
   
