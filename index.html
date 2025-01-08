@@ -23,15 +23,18 @@
           <li><a href="Contact.html">CONTACT</a></li>
         </ul>
     </header>
-
+</div>
 </br>
 
-  <div id="footer-placeholder"></div>
-  <script>
-      fetch('footer.html')
-          .then(response => response.text())
-          .then(data => {
-              document.getElementById('footer-placeholder').innerHTML = data;
-          });
-  </script>
+<footer>
+  <p class = "copyright">
+      &#169; <span id="currentYear"></span> Yonina Rollack
+  </p>
+</footer>
+
+<script>
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
+
+
 </body>
